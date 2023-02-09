@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Your Review</title>
+  </head>
+  <body>
+    <form method="POST">
+      {% csrf_token %} {{form}}
+      <button>Send</button>
+    </form>
+  </body>
+</html>
